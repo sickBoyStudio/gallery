@@ -1,17 +1,23 @@
-# 📸 sickBoyStudio 갤러리
+# sickBoyStudio / Gallery
 
-sickBoyStudio 개발자들의 단체 사진을 모으는 곳입니다. 사진은 인원수별로 모으고, 새 사진이 들어오면 이 README가 자동으로 다시 만들어집니다.
+팀 이미지를 모아 둔 아카이브입니다.
+
+[Studio](https://github.com/sickBoyStudio) · [Discussions](https://github.com/sickBoyStudio/.github/discussions) · [이미지 등록](https://github.com/sickBoyStudio/gallery/issues/new?template=add-photo.yml)
 
 <!-- GALLERY:START -->
-<p align="center"><a href="#-4인-사진">4인 사진 (1)</a> · <a href="#-6인-사진">6인 사진 (1)</a></p>
+<p align="center"><a href="#group-4">4인 사진 (1)</a> · <a href="#group-6">6인 사진 (1)</a></p>
 
-## 👥 4인 사진
+<a id="group-4"></a>
+
+## 4인 이미지
 
 <p align="center">
 <a href="photos/4-devs/2026-10-15-crew.webp"><img src="photos/4-devs/2026-10-15-crew.webp" width="100%" alt="첫 단체 사진"></a><br><sub>첫 단체 사진 · 2026-10-15</sub>
 </p>
 
-## 👥 6인 사진
+<a id="group-6"></a>
+
+## 6인 이미지
 
 <p align="center">
 <a href="photos/6-devs/2026-10-15-crew.webp"><img src="photos/6-devs/2026-10-15-crew.webp" width="100%" alt="첫 단체 사진"></a><br><sub>첫 단체 사진 · 2026-10-15</sub>
@@ -47,7 +53,7 @@ python3 scripts/build_readme.py           # README 갱신
 
 ### Git이 낯설면 — 이슈
 
-[**📸 사진 올리기** 이슈](https://github.com/sickBoyStudio/gallery/issues/new?template=add-photo.yml)를 열고 사진을 끌어다 놓으세요. 운영진이 폴더에 넣어 드립니다.
+[**이미지 등록** 이슈](https://github.com/sickBoyStudio/gallery/issues/new?template=add-photo.yml)를 열고 사진을 끌어다 놓으세요. 운영진이 폴더에 넣어 드립니다.
 
 ## 지켜 주세요
 

@@ -92,11 +92,11 @@ def cell(photo: Path, width: str) -> str:
 def render() -> str:
     out = []
     found = [(n, d, photos_in(d)) for n, d in groups()]
-    nav = " · ".join(f'<a href="#-{n}인-사진">{n}인 사진 ({len(ps)})</a>' for n, _, ps in found)
+    nav = " · ".join(f'<a href="#group-{n}">{n}인 사진 ({len(ps)})</a>' for n, _, ps in found)
     if nav:
         out += [f"<p align=\"center\">{nav}</p>", ""]
     for n, _, ps in found:
-        out += [f"## 👥 {n}인 사진", ""]
+        out += [f'<a id="group-{n}"></a>\n\n## {n}인 이미지', ""]
         if not ps:
             out += ["_아직 사진이 없습니다. 첫 사진을 올려 주세요!_", ""]
             continue
